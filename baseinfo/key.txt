@@ -1,0 +1,21 @@
+智谱：e84db9018fcc20565e217d816290374e.jq94mKIocHd51Q0s
+通义：sk-a134acb559074ee78699b22bcf83c8c3
+
+
+常用命令
+# 查看环境
+conda env list
+# 或者
+conda info --envs   
+# 创建环境
+conda create -n env_name python=3.11
+# 删除环境
+conda env remove -n env_name
+# 激活环境
+conda activate env_name
+# 退出环境
+conda deactivate
+
+# 安装包
+pip install --upgrade openai
+pip install --upgrade dashscope
